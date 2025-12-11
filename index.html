@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 id="homeText">HOME</h3>
+                <h4 id="homeCount-el">0</h4>
+                <div class="btns">
+                <button class="increment1-btn" onclick="homeIncrement1()">+1</button>
+                <button class="increment2-btn" onclick="homeIncrement2()">+2</button>
+                <button class="increment3-btn" onclick="homeIncrement3()">+3</button>
+                </div>
+            </div>
+            <div>
+                <h3 id="guestText">GUEST</h3>
+                <h4 id="guestCount-el">0</h4>
+                <div class="btns">
+                <button class="increment1-btn" onclick="guestIncrement1()">+1</button>
+                <button class="increment2-btn" onclick="guestIncrement2()">+2</button>
+                <button class="increment3-btn" onclick="guestIncrement3()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div id="results">
+                <button id="newGame-btn" onclick="newGame()">New Game</button>
+                <p>Previous matches results: </p>
+                <ol id="history-el"></ol>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
