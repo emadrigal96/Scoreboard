@@ -82,7 +82,7 @@ function newGame() {
     // Actualiza en pantalla el marcador del equipo visitante
     guestCountEl.innerText = guestCount;
 
-    //Renicia el formato del texto del ganador
+    //Renicia el formato del texto del liderato
     document.getElementById("homeText").style.color = "white";
     document.getElementById("guestText").style.color = "white";
 }
